@@ -43,3 +43,29 @@
     cursor: pointer;
     background-color: rgb(210, 210, 210);
 }
+
+.result{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.reset{
+    text-align: center;
+    margin: 10px 0;
+}
+#reset{
+    border: none;
+    cursor: pointer;
+    color: #000;
+    background-color: #bcf;
+    border-radius: 0.5rem;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    margin: 7px 0;
+    transition: all 0.8s ease-in-out;
+}
+
+#reset:hover{
+    color: #fff;
+    background-color: #000;
+}
